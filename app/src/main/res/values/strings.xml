@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">COE444_Tetris</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email Address</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="date">Date of Birth</string>
+    <string name="country">Country</string>
+    <string name="usercountry">United Arab Emirates</string>
+    <string name="address">Address</string>
+    <string name="checkboxtext">I have read and agreed terms and conditions</string>
+    <string name="loading">Loading RSS Feed..</string>
+    <string name="items_title">CNN.com Technology</string>
+    <string name="item_pub_date">Published: Mon 22 June 2020</string>
+    <string name="item_title">Item title</string>
+    <string name="item_description">Item description</string>
+    <string name="item_link">Read more on the web</string>
+    <string name="risk_chart_link">Chart Resource</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_settings">Settings</string>
+    <string name="password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="SignIn_Email">Email</string>
+    <string name="SignIn_Password">Password</string>
+    <string name="confirmTitle">Log Out</string>
+    <string name="confirmMessage">Are you sure you want to log out?</string>
+
+    <string name="MapsText">
+        Protect yourself and your community, use our social distancing feature to find out where other users are located and don\'t linger for long! <u>Click on the map</u> to explore your surroundings!
+    </string>
+    <string name="RSSfeedText">
+        It\'s always wise to keep track of the number of cases and the number of recoveries. <u>Click on the right</u> to view live updates regarding the pandemic.
+    </string>
+    <string name="CovidMeasuresText">
+        Another way to reduce the impact of COVID-19 is by taking extra measures. Learn about these measures by <u>clicking on the right</u>
+    </string>
+    <string name="ForgotPassword">Forgot Password?</string>
+    <string name="NoAccount"> <u>Don\'t have an account?</u>.</string>
+    <string name="KnowMore"> <u>Click <b>here</b> to know more</u>.</string>
+    <string name="SignIn_Button">Sign In</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_c_o_v_i_d_measures">Anti C-19 Measures</string>
 </resources>

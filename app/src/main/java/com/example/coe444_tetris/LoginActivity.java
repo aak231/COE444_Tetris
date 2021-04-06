@@ -22,6 +22,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private EditText username;
     private EditText password;
     private Button loginButton;
+    private Button registerButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,9 +30,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         username = (EditText) findViewById(R.id.usernameID);
         password = (EditText) findViewById(R.id.passwordID);
         loginButton = (Button) findViewById(R.id.loginButtonID);
-
+        registerButton = (Button) findViewById(R.id.registerButtonID);
 
         loginButton.setOnClickListener(this);
+        registerButton.setOnClickListener(this);
     }
 
     @Override
@@ -49,7 +51,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 else {
                     requestStoragePermission();
                 }
-
+            case R.id.registerButtonID:
+                Intent register = new Intent(this, RegistrationActivity.class);
+                startActivity(register);
         }
     }
     private void requestStoragePermission()
